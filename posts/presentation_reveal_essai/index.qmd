@@ -39,8 +39,6 @@ format:
 - git remote add origin https://github.com/omelectro1/pres_math_1.git
 - git push -u origin main
 
-- Remonter d'un répertoire (Sinon impossible dans RStudio de faire "quarto render)
-
 ## Dans github
 
 - https://github.com/omelectro1/pres_math_1/settings
