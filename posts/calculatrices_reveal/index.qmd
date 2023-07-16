@@ -1,0 +1,37 @@
+---
+title: "Quarto demonstration"
+description: Showing some neat features of Quarto!
+date: today # other options: now, last-modified
+author: Julia Müller 
+format:
+  revealjs:
+    code-fold: false
+    theme: white
+    footer: "A nice presentation about penguins"
+    chalkboard: true
+    navigation-mode: grid
+    slide-number: c/t
+# bibliography: penguins.bib
+# link-citations: yes
+# csl: apa-single-spaced.csl
+---
+
+# Preparation
+
+## Choosing the data
+
+# Slide 1
+
+## Slide 1.1
+
+## Slide 1.2
+
+
+### ertett
+
+
+# Slide 2
+
+## Slide 2.1
+
+## Slide 2.2

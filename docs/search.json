@@ -1,0 +1,163 @@
+[
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "math_blog",
+    "section": "",
+    "text": "Habits\n\n\n\n\n\n\n\n\n\n\n\n\nJohn Doe\n\n\n\n\n\n\n  \n\n\n\n\nQuarto demonstration\n\n\n\n\n\nShowing some neat features of Quarto!\n\n\n\n\n\n\nJul 16, 2023\n\n\nJulia Müller\n\n\n\n\n\n\n  \n\n\n\n\nQuarto demonstration\n\n\n\n\n\nShowing some neat features of Quarto!\n\n\n\n\n\n\nJul 16, 2023\n\n\nJulia Müller\n\n\n\n\n\n\n  \n\n\n\n\nQuarto et github pages\n\n\n\n\n\nShowing some neat features of Quarto!\n\n\n\n\n\n\nJul 16, 2023\n\n\nJulia Müller\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJul 13, 2023\n\n\nOM de B\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJul 10, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "posts/calculatrices_reveal/index.html#choosing-the-data",
+    "href": "posts/calculatrices_reveal/index.html#choosing-the-data",
+    "title": "Quarto demonstration",
+    "section": "Choosing the data",
+    "text": "Choosing the data"
+  },
+  {
+    "objectID": "posts/calculatrices_reveal/index.html#slide-1.1",
+    "href": "posts/calculatrices_reveal/index.html#slide-1.1",
+    "title": "Quarto demonstration",
+    "section": "Slide 1.1",
+    "text": "Slide 1.1"
+  },
+  {
+    "objectID": "posts/calculatrices_reveal/index.html#slide-1.2",
+    "href": "posts/calculatrices_reveal/index.html#slide-1.2",
+    "title": "Quarto demonstration",
+    "section": "Slide 1.2",
+    "text": "Slide 1.2\nertett"
+  },
+  {
+    "objectID": "posts/calculatrices_reveal/index.html#slide-2.1",
+    "href": "posts/calculatrices_reveal/index.html#slide-2.1",
+    "title": "Quarto demonstration",
+    "section": "Slide 2.1",
+    "text": "Slide 2.1"
+  },
+  {
+    "objectID": "posts/calculatrices_reveal/index.html#slide-2.2",
+    "href": "posts/calculatrices_reveal/index.html#slide-2.2",
+    "title": "Quarto demonstration",
+    "section": "Slide 2.2",
+    "text": "Slide 2.2\n\n\nA nice presentation about penguins"
+  },
+  {
+    "objectID": "posts/presentation_math/index.html#choosing-the-data",
+    "href": "posts/presentation_math/index.html#choosing-the-data",
+    "title": "Quarto demonstration",
+    "section": "Choosing the data",
+    "text": "Choosing the data\nAs everyone always says,\n\npenguins are very cute!\n\n…so let’s work with penguin data today.\n\n\n\n\n\n\nNote\n\n\nNote that the palmerpenguins dataset is meant as an alternative to the commonly used iris data."
+  },
+  {
+    "objectID": "posts/presentation_math/index.html#loading-packages-reading-data",
+    "href": "posts/presentation_math/index.html#loading-packages-reading-data",
+    "title": "Quarto demonstration",
+    "section": "Loading packages & reading data",
+    "text": "Loading packages & reading data\nFirst, we need to:\n\n\nload packages\n\nread in data\n\ncheck if that data is in the right format\n\n\n\n\n\n\n\n\n\n\nUsing the data without downloading it\n\n\nThis same dataset is also available in the package palmerpenguins.\n\n\n\nWe’ve removed missing values here, which means that the data has r nrow(penguins) rows now[^1].\n\nBy “right format”, we mean that the data is tidy, and ready to be summarised and graphed."
+  },
+  {
+    "objectID": "posts/presentation_math/index.html#some-descriptive-statistics",
+    "href": "posts/presentation_math/index.html#some-descriptive-statistics",
+    "title": "Quarto demonstration",
+    "section": "Some descriptive statistics",
+    "text": "Some descriptive statistics\n\n\n\n\n\n\nFigure 1: Penguin species drawing by Allison Horst\n\n\n\n\n\n\n\nFigure 2: Explaining bill dimensions\n\n\n\n\n\n\n\nThe average bill length is r mean(penguins$bill_length_mm) mm and the average bill depth is r mean(penguins$bill_depth_mm) mm.\n\nThe data was collected between r min(penguins$year) and r max(penguins$year)."
+  },
+  {
+    "objectID": "posts/presentation_math/index.html#graphs",
+    "href": "posts/presentation_math/index.html#graphs",
+    "title": "Quarto demonstration",
+    "section": "Graphs",
+    "text": "Graphs\nSome ideas for graphs:\n\npenguin weight by flipper length\n\nfor the entire data\n\nor separately for each species\n\nand additionally by sex\n\n\nflipper and bill length\n\nbill length and depth"
+  },
+  {
+    "objectID": "posts/presentation_math/index.html#weight-and-flipper-length",
+    "href": "posts/presentation_math/index.html#weight-and-flipper-length",
+    "title": "Quarto demonstration",
+    "section": "Weight and flipper length",
+    "text": "Weight and flipper length\nThe following graphs are slightly simplified versions from the vignette for the {palmerpenguins} package."
+  },
+  {
+    "objectID": "posts/presentation_math/index.html#inline-math",
+    "href": "posts/presentation_math/index.html#inline-math",
+    "title": "Quarto demonstration",
+    "section": "Inline Math",
+    "text": "Inline Math\nEquation \\(x^2\\)"
+  },
+  {
+    "objectID": "posts/presentation_math/index.html#dfjlkgd",
+    "href": "posts/presentation_math/index.html#dfjlkgd",
+    "title": "Quarto demonstration",
+    "section": "dfjlkgd",
+    "text": "dfjlkgd\n\\[\\begin{equation*}\n    a_n = \\begin{cases}\n              3n + 1  & \\text{ if } n \\text{ is odd} \\\\\n              n / 2 & \\text{ otherwise}\n          \\end{cases}\n\\end{equation*}\\]\n\\[\\begin{align*}\n1 + 2 = 3 \\\\\n3 + 2 = 5\n\\end{align*}\\]"
+  },
+  {
+    "objectID": "posts/presentation_reveal_essai/index.html#choosing-the-data",
+    "href": "posts/presentation_reveal_essai/index.html#choosing-the-data",
+    "title": "Quarto et github pages",
+    "section": "Choosing the data",
+    "text": "Choosing the data"
+  },
+  {
+    "objectID": "posts/presentation_reveal_essai/index.html#slide-1.1",
+    "href": "posts/presentation_reveal_essai/index.html#slide-1.1",
+    "title": "Quarto et github pages",
+    "section": "Slide 1.1",
+    "text": "Slide 1.1"
+  },
+  {
+    "objectID": "posts/presentation_reveal_essai/index.html#faire-un-site-avec-github-pages",
+    "href": "posts/presentation_reveal_essai/index.html#faire-un-site-avec-github-pages",
+    "title": "Quarto et github pages",
+    "section": "Faire un site avec “github pages”",
+    "text": "Faire un site avec “github pages”\nPour faire simple\n\ndans le terminal de RStudio : quarto render\nExplorateur windows : ouvrir “_posts” (C:\\TEXTES\\ECLAIRAGE\\REVEAL_MATH_SLG\\quarto_slg\\math_blog\\math_blog\\docs)\nDans windows ouvrir un terminal de commande (administrateur) : cd C:\\TEXTES\\ECLAIRAGE\\REVEAL_MATH_SLG\\quarto_slg\\math_blog\\math_blog\\docs\ngit init\ngit add .\ngit commit -m “first commit”\ngit branch -M main\ngit remote add origin https://github.com/omelectro1/pres_math_1.git\ngit push -u origin main\nRemonter d’un répertoire (Sinon impossible dans RStudio de faire “quarto render)"
+  },
+  {
+    "objectID": "posts/presentation_reveal_essai/index.html#dans-github",
+    "href": "posts/presentation_reveal_essai/index.html#dans-github",
+    "title": "Quarto et github pages",
+    "section": "Dans github",
+    "text": "Dans github\n\nhttps://github.com/omelectro1/pres_math_1/settings\nMenu (gauche) “pages”\nBranch “main” “root” -&gt; Save"
+  },
+  {
+    "objectID": "posts/presentation_reveal_essai/index.html#si-problème-de-permissions-avec-le-compte-github",
+    "href": "posts/presentation_reveal_essai/index.html#si-problème-de-permissions-avec-le-compte-github",
+    "title": "Quarto et github pages",
+    "section": "Si problème de permissions avec le compte github",
+    "text": "Si problème de permissions avec le compte github\n– Dans windows panneau de configuration -&gt; Comptes d’utilisateurs -&gt; Gestionnaire d’identifications -&gt; Informations d’identification Windows"
+  },
+  {
+    "objectID": "posts/presentation_reveal_essai/index.html#slide-2.1",
+    "href": "posts/presentation_reveal_essai/index.html#slide-2.1",
+    "title": "Quarto et github pages",
+    "section": "Slide 2.1",
+    "text": "Slide 2.1"
+  },
+  {
+    "objectID": "posts/presentation_reveal_essai/index.html#slide-2.2",
+    "href": "posts/presentation_reveal_essai/index.html#slide-2.2",
+    "title": "Quarto et github pages",
+    "section": "Slide 2.2",
+    "text": "Slide 2.2\n\n\nA nice presentation about penguins"
+  }
+]

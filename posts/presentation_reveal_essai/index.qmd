@@ -1,0 +1,58 @@
+---
+title: "Quarto et github pages"
+description: Showing some neat features of Quarto!
+date: today # other options: now, last-modified
+author: Julia Müller 
+format:
+  revealjs:
+    code-fold: false
+    theme: white
+    footer: "A nice presentation about penguins"
+    chalkboard: true
+    navigation-mode: grid
+    slide-number: c/t
+# bibliography: penguins.bib
+# link-citations: yes
+# csl: apa-single-spaced.csl
+---
+
+# Preparation
+
+## Choosing the data
+
+# Slide 1
+
+## Slide 1.1
+
+## Faire un site avec "github pages"
+
+
+### Pour faire simple
+
+- dans le terminal de RStudio : quarto render
+- Explorateur windows : ouvrir "_posts" (C:\\TEXTES\\ECLAIRAGE\\REVEAL_MATH_SLG\\quarto_slg\\math_blog\\math_blog\\docs)
+- Dans windows ouvrir un terminal de commande (administrateur) : cd C:\\TEXTES\\ECLAIRAGE\\REVEAL_MATH_SLG\\quarto_slg\\math_blog\\math_blog\\docs
+- git init
+- git add .
+- git commit -m "first commit"
+- git branch -M main
+- git remote add origin https://github.com/omelectro1/pres_math_1.git
+- git push -u origin main
+
+- Remonter d'un répertoire (Sinon impossible dans RStudio de faire "quarto render)
+
+## Dans github
+
+- https://github.com/omelectro1/pres_math_1/settings
+- Menu (gauche) "pages"
+- Branch "main" "root" -> Save
+
+## Si problème de permissions avec le compte github
+
+-- Dans windows panneau de configuration -> Comptes d'utilisateurs -> Gestionnaire d'identifications -> Informations d'identification Windows
+
+# Slide 2
+
+## Slide 2.1
+
+## Slide 2.2

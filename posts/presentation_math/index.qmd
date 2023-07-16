@@ -1,0 +1,156 @@
+---
+title: "Quarto demonstration"
+description: Showing some neat features of Quarto!
+date: today # other options: now, last-modified
+author: Julia Müller 
+format:
+  revealjs:
+    code-fold: false
+    theme: white
+    footer: "A nice presentation about penguins"
+    chalkboard: true
+    navigation-mode: grid
+    slide-number: c/t
+# bibliography: penguins.bib
+# link-citations: yes
+# csl: apa-single-spaced.csl
+---
+
+
+# Preparation
+
+## Choosing the data
+
+As everyone always says,
+
+> penguins are very cute!
+
+...so let's work with penguin data today.  
+
+:::{.callout-note}
+Note that the palmerpenguins dataset is meant as an alternative to the commonly used iris data.
+:::
+
+---
+
+More information on this data set is available on [Allison Horst's Github page.](https://allisonhorst.github.io/palmerpenguins/)  
+
+
+This data can also be used via the {palmerpenguins} package [@Horst.2020] and was originally introduced in @Gorman.2014  
+
+
+## Loading packages & reading data
+
+First, we need to:  
+
+::: {.incremental}  
+1. load **packages**  
+2. read in **data**  
+3. check if that data is *in the right format*  
+:::  
+
+::: aside
+By "right format", we mean that the data is tidy, and ready to be summarised and graphed.
+:::
+
+:::{.callout-tip}
+## Using the data without downloading it
+This same dataset is also available in the package palmerpenguins.
+:::
+We've removed missing values here, which means that the data has `r nrow(penguins)` rows now[^1].
+
+
+## Some descriptive statistics {.smaller}
+
+::: {layout-ncol=2}
+![Penguin species drawing by Allison Horst](pics/penguin_species.png){#fig-penguins}
+
+![Explaining bill dimensions](pics/culmen_depth.png){#fig-bill}
+:::
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+The average bill length is `r mean(penguins$bill_length_mm)` mm and the average bill depth is `r mean(penguins$bill_depth_mm)` mm.
+:::
+
+::: {.column width="50%"}
+The data was collected between `r min(penguins$year)` and `r max(penguins$year)`.
+:::
+
+::::
+
+---
+
+### Comparing base R and tidyverse syntax
+
+Here's code to see data in a specific column:
+
+::: {.panel-tabset}
+#### base R
+``` {.r}
+penguins$bill_length_mm
+```
+
+#### tidyverse
+``` {.r}
+penguins %>% select(bill_length_mm)
+```
+
+:::
+
+
+## Graphs
+
+Some ideas for graphs:
+
+- penguin weight by flipper length  
+    - for the entire data  
+    - or separately for each species  
+    - and additionally by sex  
+- flipper and bill length  
+- bill length and depth  
+
+---
+
+## Weight and flipper length
+
+The following graphs are slightly simplified versions from the [vignette for the {palmerpenguins} package.](https://allisonhorst.github.io/palmerpenguins/articles/examples.html)
+
+
+# Slide LAST
+
+::: {.fragment}
+
+- Here some text om
+
+## Inline Math
+
+Equation $x^2$
+
+## dfjlkgd
+\begin{equation*}
+    a_n = \begin{cases}
+              3n + 1  & \text{ if } n \text{ is odd} \\
+              n / 2 & \text{ otherwise}
+          \end{cases}
+\end{equation*}
+
+\begin{align*}
+1 + 2 = 3 \\
+3 + 2 = 5
+\end{align*}
+
+
+:::
+
+::: {.fragment}
+
+::: {.callout-tip}
+## Tip with Title
+
+This is an example of a callout with a title.
+:::
+
+:::
