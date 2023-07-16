@@ -50,7 +50,7 @@ format:
 -- Dans windows panneau de configuration -> Comptes d'utilisateurs -> Gestionnaire d'identifications -> Informations d'identification Windows
 - Effacer les "identifications génériques github"
 
-# Mise à jour du site
+# Mise à jour du site.
 
 ## Dans RStudio
 
