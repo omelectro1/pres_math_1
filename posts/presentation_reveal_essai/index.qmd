@@ -24,7 +24,7 @@ format:
 
 ## Slide 1.1
 
-## Faire un site avec "github pages"
+## Faire un site avec "github pages" {.scrollable}
 
 
 ### Pour faire simple
@@ -48,6 +48,7 @@ format:
 ## Si problème de permissions avec le compte github
 
 -- Dans windows panneau de configuration -> Comptes d'utilisateurs -> Gestionnaire d'identifications -> Informations d'identification Windows
+- Effacer les "identifications génériques github"
 
 # Slide 2
 
