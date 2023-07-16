@@ -16,13 +16,7 @@ format:
 # csl: apa-single-spaced.csl
 ---
 
-# Preparation
-
-## Choosing the data
-
-# Slide 1
-
-## Slide 1.1
+# Faire un site Github pages avec Quarto 
 
 ## Faire un site avec "github pages" {.scrollable}
 

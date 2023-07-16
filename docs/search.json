@@ -112,20 +112,6 @@
     "text": "dfjlkgd\n\\[\\begin{equation*}\n    a_n = \\begin{cases}\n              3n + 1  & \\text{ if } n \\text{ is odd} \\\\\n              n / 2 & \\text{ otherwise}\n          \\end{cases}\n\\end{equation*}\\]\n\\[\\begin{align*}\n1 + 2 = 3 \\\\\n3 + 2 = 5\n\\end{align*}\\]"
   },
   {
-    "objectID": "posts/presentation_reveal_essai/index.html#choosing-the-data",
-    "href": "posts/presentation_reveal_essai/index.html#choosing-the-data",
-    "title": "Quarto et github pages",
-    "section": "Choosing the data",
-    "text": "Choosing the data"
-  },
-  {
-    "objectID": "posts/presentation_reveal_essai/index.html#slide-1.1",
-    "href": "posts/presentation_reveal_essai/index.html#slide-1.1",
-    "title": "Quarto et github pages",
-    "section": "Slide 1.1",
-    "text": "Slide 1.1"
-  },
-  {
     "objectID": "posts/presentation_reveal_essai/index.html#faire-un-site-avec-github-pages",
     "href": "posts/presentation_reveal_essai/index.html#faire-un-site-avec-github-pages",
     "title": "Quarto et github pages",
