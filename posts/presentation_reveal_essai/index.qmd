@@ -33,7 +33,7 @@ format:
 - Explorateur windows : ouvrir C:\\TEXTES\\ECLAIRAGE\\REVEAL_MATH_SLG\\quarto_slg\\math_blog\\math_blog
 - Dans windows ouvrir un terminal de commande (administrateur) : cd C:\\TEXTES\\ECLAIRAGE\\REVEAL_MATH_SLG\\quarto_slg\\math_blog\\math_blog
 - git init
-- git add .
+- git add --all
 - git commit -m "first commit"
 - git branch -M main
 - git remote add origin https://github.com/omelectro1/pres_math_1.git
@@ -61,6 +61,6 @@ format:
 
 ## Dans le terminal de commande windows : 
 
-- git add .
+- git add --all
 - git commit -m "SECOND commit"
 - git push -u origin main

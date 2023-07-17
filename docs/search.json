@@ -116,7 +116,7 @@
     "href": "posts/presentation_reveal_essai/index.html#faire-un-site-avec-github-pages",
     "title": "Quarto et github pages",
     "section": "Faire un site avec “Github pages”",
-    "text": "Faire un site avec “Github pages”\nPour faire simple\n\nDans le terminal de RStudio : quarto render\nExplorateur windows : ouvrir C:\\TEXTES\\ECLAIRAGE\\REVEAL_MATH_SLG\\quarto_slg\\math_blog\\math_blog\nDans windows ouvrir un terminal de commande (administrateur) : cd C:\\TEXTES\\ECLAIRAGE\\REVEAL_MATH_SLG\\quarto_slg\\math_blog\\math_blog\ngit init\ngit add .\ngit commit -m “first commit”\ngit branch -M main\ngit remote add origin https://github.com/omelectro1/pres_math_1.git\ngit push -u origin main"
+    "text": "Faire un site avec “Github pages”\nPour faire simple\n\nDans le terminal de RStudio : quarto render\nExplorateur windows : ouvrir C:\\TEXTES\\ECLAIRAGE\\REVEAL_MATH_SLG\\quarto_slg\\math_blog\\math_blog\nDans windows ouvrir un terminal de commande (administrateur) : cd C:\\TEXTES\\ECLAIRAGE\\REVEAL_MATH_SLG\\quarto_slg\\math_blog\\math_blog\ngit init\ngit add –all\ngit commit -m “first commit”\ngit branch -M main\ngit remote add origin https://github.com/omelectro1/pres_math_1.git\ngit push -u origin main"
   },
   {
     "objectID": "posts/presentation_reveal_essai/index.html#dans-github",
@@ -144,7 +144,7 @@
     "href": "posts/presentation_reveal_essai/index.html#dans-le-terminal-de-commande-windows",
     "title": "Quarto et github pages",
     "section": "Dans le terminal de commande windows :",
-    "text": "Dans le terminal de commande windows :\n\ngit add .\ngit commit -m “SECOND commit”\ngit push -u origin main\n\n\n\nOM 2023.07.17"
+    "text": "Dans le terminal de commande windows :\n\ngit add –all\ngit commit -m “SECOND commit”\ngit push -u origin main\n\n\n\nOM 2023.07.17"
   },
   {
     "objectID": "posts/presentation_reveal_essai/index.html#editeur-visual-studio-code",
