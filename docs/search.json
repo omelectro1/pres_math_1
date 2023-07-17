@@ -18,7 +18,7 @@
     "href": "index.html",
     "title": "math_blog",
     "section": "",
-    "text": "Habits\n\n\n\n\n\n\n\n\n\n\n\n\nJohn Doe\n\n\n\n\n\n\n  \n\n\n\n\nQuarto demonstration\n\n\n\n\n\nShowing some neat features of Quarto!\n\n\n\n\n\n\nJul 16, 2023\n\n\nJulia Müller\n\n\n\n\n\n\n  \n\n\n\n\nQuarto demonstration\n\n\n\n\n\nShowing some neat features of Quarto!\n\n\n\n\n\n\nJul 16, 2023\n\n\nJulia Müller\n\n\n\n\n\n\n  \n\n\n\n\nQuarto et github pages\n\n\n\n\n\nShowing some neat features of Quarto!\n\n\n\n\n\n\nJul 16, 2023\n\n\nJulia Müller\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJul 13, 2023\n\n\nOM de B\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJul 10, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Habits\n\n\n\n\n\n\n\n\n\n\n\n\nJohn Doe\n\n\n\n\n\n\n  \n\n\n\n\nQuarto demonstration\n\n\n\n\n\nShowing some neat features of Quarto!\n\n\n\n\n\n\nJul 17, 2023\n\n\nJulia Müller\n\n\n\n\n\n\n  \n\n\n\n\nQuarto demonstration\n\n\n\n\n\nShowing some neat features of Quarto!\n\n\n\n\n\n\nJul 17, 2023\n\n\nJulia Müller\n\n\n\n\n\n\n  \n\n\n\n\nQuarto et github pages\n\n\n\n\n\nShowing some neat features of Quarto!\n\n\n\n\n\n\nJul 17, 2023\n\n\nJulia Müller\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJul 13, 2023\n\n\nOM de B\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJul 10, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -115,8 +115,8 @@
     "objectID": "posts/presentation_reveal_essai/index.html#faire-un-site-avec-github-pages",
     "href": "posts/presentation_reveal_essai/index.html#faire-un-site-avec-github-pages",
     "title": "Quarto et github pages",
-    "section": "Faire un site avec “github pages”",
-    "text": "Faire un site avec “github pages”\nPour faire simple\n\ndans le terminal de RStudio : quarto render\nExplorateur windows : ouvrir C:\\TEXTES\\ECLAIRAGE\\REVEAL_MATH_SLG\\quarto_slg\\math_blog\\math_blog\nDans windows ouvrir un terminal de commande (administrateur) : cd C:\\TEXTES\\ECLAIRAGE\\REVEAL_MATH_SLG\\quarto_slg\\math_blog\\math_blog\ngit init\ngit add .\ngit commit -m “first commit”\ngit branch -M main\ngit remote add origin https://github.com/omelectro1/pres_math_1.git\ngit push -u origin main"
+    "section": "Faire un site avec “Github pages”",
+    "text": "Faire un site avec “Github pages”\nPour faire simple\n\nDans le terminal de RStudio : quarto render\nExplorateur windows : ouvrir C:\\TEXTES\\ECLAIRAGE\\REVEAL_MATH_SLG\\quarto_slg\\math_blog\\math_blog\nDans windows ouvrir un terminal de commande (administrateur) : cd C:\\TEXTES\\ECLAIRAGE\\REVEAL_MATH_SLG\\quarto_slg\\math_blog\\math_blog\ngit init\ngit add .\ngit commit -m “first commit”\ngit branch -M main\ngit remote add origin https://github.com/omelectro1/pres_math_1.git\ngit push -u origin main"
   },
   {
     "objectID": "posts/presentation_reveal_essai/index.html#dans-github",
@@ -137,13 +137,27 @@
     "href": "posts/presentation_reveal_essai/index.html#dans-rstudio",
     "title": "Quarto et github pages",
     "section": "Dans RStudio",
-    "text": "Dans RStudio\n\nChanger dans les fichiers *.qmd les textes et les idées (si, si)\nEnregistrer les changements (CTRL-S)\nDans le terminal de RStudio : quarto render"
+    "text": "Dans RStudio\n\nModifier les textes dans les fichiers *.qmd\nEnregistrer les changements (CTRL-S)\nDans le terminal de RStudio : quarto render"
   },
   {
     "objectID": "posts/presentation_reveal_essai/index.html#dans-le-terminal-de-commande-windows",
     "href": "posts/presentation_reveal_essai/index.html#dans-le-terminal-de-commande-windows",
     "title": "Quarto et github pages",
     "section": "Dans le terminal de commande windows :",
-    "text": "Dans le terminal de commande windows :\n\ngit add .\ngit commit -m “SECOND commit”\ngit push -u origin main\n\n\n\nA nice presentation about penguins"
+    "text": "Dans le terminal de commande windows :\n\ngit add .\ngit commit -m “SECOND commit”\ngit push -u origin main\n\n\n\nOM 2023.07.17"
+  },
+  {
+    "objectID": "posts/presentation_reveal_essai/index.html#editeur-visual-studio-code",
+    "href": "posts/presentation_reveal_essai/index.html#editeur-visual-studio-code",
+    "title": "Quarto et github pages",
+    "section": "Editeur Visual Studio Code",
+    "text": "Editeur Visual Studio Code\n\nSelon la structure (Fichiers et répertoires) construite par RStudio.\nInstaller une extension à VSC (Visual Studio Code) (CTRL-MAJ-X)\nQuarto"
+  },
+  {
+    "objectID": "posts/presentation_reveal_essai/index.html#avec-rstudio",
+    "href": "posts/presentation_reveal_essai/index.html#avec-rstudio",
+    "title": "Quarto et github pages",
+    "section": "Avec RStudio",
+    "text": "Avec RStudio\n\nModifier les textes dans les fichiers *.qmd\nEnregistrer les changements (CTRL-S)\nRésultat, dans le terminal : quarto render"
   }
 ]

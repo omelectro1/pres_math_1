@@ -7,7 +7,7 @@ format:
   revealjs:
     code-fold: false
     theme: white
-    footer: "A nice presentation about penguins"
+    footer: "OM 2023.07.17"
     chalkboard: true
     navigation-mode: grid
     slide-number: c/t
@@ -16,14 +16,20 @@ format:
 # csl: apa-single-spaced.csl
 ---
 
-# Faire un site Github pages avec Quarto 
+# Faire un site Github pages avec Quarto
 
-## Faire un site avec "github pages" {.scrollable}
+## Editeur Visual Studio Code
+
+- Selon la structure (Fichiers et répertoires) construite par RStudio.
+- Installer une extension à VSC (Visual Studio Code) (CTRL-MAJ-X)
+- Quarto 
+
+## Faire un site avec "Github pages" {.scrollable}
 
 
 ### Pour faire simple
 
-- dans le terminal de RStudio : quarto render
+- Dans le terminal de RStudio : quarto render
 - Explorateur windows : ouvrir C:\\TEXTES\\ECLAIRAGE\\REVEAL_MATH_SLG\\quarto_slg\\math_blog\\math_blog
 - Dans windows ouvrir un terminal de commande (administrateur) : cd C:\\TEXTES\\ECLAIRAGE\\REVEAL_MATH_SLG\\quarto_slg\\math_blog\\math_blog
 - git init
@@ -46,11 +52,11 @@ format:
 
 # Mise à jour du site.
 
-## Dans RStudio
+## Avec RStudio
 
-- Changer dans les fichiers *.qmd les textes et les idées (si, si)
+- Modifier les textes dans les fichiers *.qmd
 - Enregistrer les changements (CTRL-S)
-- Dans le terminal de RStudio : quarto render
+- Résultat, dans le terminal : quarto render
 
 
 ## Dans le terminal de commande windows : 
