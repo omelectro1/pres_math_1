@@ -2,7 +2,7 @@
 title: "Quarto et github pages"
 description: Showing some neat features of Quarto!
 date: today # other options: now, last-modified
-author: Julia Müller 
+author: Olivier Maccaud 
 format:
   revealjs:
     code-fold: false
